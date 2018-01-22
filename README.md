@@ -1,4 +1,4 @@
-# natalix.github.io
+# nataliamazurczak.pl
 My website
 
 I have used: 
