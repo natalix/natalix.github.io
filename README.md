@@ -5,6 +5,6 @@ I have used:
 - HTML
 - CSS
 - CSS Grid Layout
--jQuery
+- jQuery
 
 [Link](http://nataliamazurczak.pl)
