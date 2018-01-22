@@ -384,6 +384,10 @@ header h2 {
     transform: translateX(0);
 }
 
+.hover-box a {
+    text-decoration: none;
+}
+
 .hover-box .fa {
     color: rgba(142, 68, 173, 0.8);
     font-size: 50px;
