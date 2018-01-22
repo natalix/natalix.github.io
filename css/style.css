@@ -355,6 +355,7 @@ header h2 {
     border-style: solid;
     border-width: 124px 124px 124px 0;
     border-color: transparent rgba(255, 255, 255, 0.9) transparent transparent;
+    opacity: 0;
 }
 
 .works-box::after {
@@ -371,6 +372,7 @@ header h2 {
     transform: translateY(-50%);
     -webkit-transition: all 0.35s ease;
     transition: all 0.35s ease;
+    opacity: 0;
 }
 
 .works-box:hover img {
@@ -382,6 +384,12 @@ header h2 {
 .works-box:hover .hover-box {
     -webkit-transform: translateX(0);
     transform: translateX(0);
+}
+
+.works-box:hover:after,
+.works-box:hover .hover-box,
+.works-box:hover .hover-box::before {
+    opacity: 1;
 }
 
 .hover-box a {
