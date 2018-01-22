@@ -510,6 +510,7 @@ footer>* {
 
     header::before {
         border-top: solid 35vh rgb(142, 68, 173);
+        border-left: solid 100vw transparent;
         border-right: solid 20vh transparent;
     }
 
@@ -524,7 +525,7 @@ footer>* {
     }
 
     .skills li {
-        margin-left: 6px;
+        margin-left: 5px;
     }
     
     .skills svg {
@@ -583,6 +584,10 @@ footer>* {
         grid-template-columns: 15px minmax(100px, 850px) 15px;
     }
 
+    nav {
+        background-color: rgb(142, 68, 173);
+    }
+
     nav ul {
         grid-area: 2 / 2 / 3 / 3;
     }
@@ -612,6 +617,10 @@ footer>* {
 
     .skills {
         grid-area: 2 / 2 / 5 / 4;
+    }
+
+    .skills svg {
+        height: 35px;
     }
 
     .skills li {
@@ -705,20 +714,20 @@ footer>* {
         grid-template-columns: 10px minmax(100px, 850px) 10px;
     }
 
-    .header-container {
+    /* .header-container {
         grid-template-rows: repeat(3, 1fr);
-    }
+    } */
 
     header::before {
-        border-top: solid 17vh rgb(142, 68, 173);
-        border-left: solid 85vh transparent;
-        border-right: solid 3vh transparent;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
     }
 
-    .hero {
+    /* .hero {
         grid-area: 1 / 2 / 2 / 3;
         align-self: end;
-    }
+    } */
 
     .hero h1 {
         font-size: 30px;
@@ -727,9 +736,13 @@ footer>* {
     .hero h2 {
         font-size: 22px;
     }
+
+    .skills svg {
+        height: 28px;
+    }
     
     #aboutMe .container {
-
+        padding-left: 10px;
         grid-template-columns: 1fr;
         justify-items: center;
     }
@@ -737,6 +750,15 @@ footer>* {
     .quote {
         width: 100%;
         text-align: center;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    #aboutMe p {
+        font-size: 15px;
+        line-height: 28px;
+        text-align: justify;
+        padding: 2px 5px 0;
     }
     
     #aboutMe::after {

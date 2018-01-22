@@ -47,9 +47,11 @@ $(function() {
             var currentLink = $(this);
             var hrefLink = $(currentLink.attr('href'));
             if (hrefLink.position().top <= scrollPosition && hrefLink.position().top + hrefLink.height() > scrollPosition) {
-                $('li a').each(function () {
-                    $(this).removeClass('active');
-                });
+                $('li a').removeClass('active');
+               
+                // $('li a').each(function () {
+                //     $(this).removeClass('active');
+                // });
                 currentLink.addClass('active');
             } else {
                 currentLink.removeClass('active');
