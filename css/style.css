@@ -339,8 +339,8 @@ header h2 {
     padding-top: calc(50% - 120px);
     background-color: rgba(255, 255, 255, 0.9);
     width: 40%;
-    -webkit-transform: translateX(150%);
-    transform: translateX(150%);
+    -webkit-transform: translateX(200%);
+    transform: translateX(200%);
 }
 
 .hover-box::before {
@@ -355,7 +355,6 @@ header h2 {
     border-style: solid;
     border-width: 124px 124px 124px 0;
     border-color: transparent rgba(255, 255, 255, 0.9) transparent transparent;
-    opacity: 0;
 }
 
 .works-box::after {
@@ -368,11 +367,10 @@ header h2 {
     border-style: solid;
     border-width: 124px 124px 0 124px;
     border-color: rgba(255, 255, 255, 0.4) transparent transparent transparent;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
     -webkit-transition: all 0.35s ease;
     transition: all 0.35s ease;
-    opacity: 0;
 }
 
 .works-box:hover img {
@@ -384,12 +382,6 @@ header h2 {
 .works-box:hover .hover-box {
     -webkit-transform: translateX(0);
     transform: translateX(0);
-}
-
-.works-box:hover:after,
-.works-box:hover .hover-box,
-.works-box:hover .hover-box::before {
-    opacity: 1;
 }
 
 .hover-box a {
