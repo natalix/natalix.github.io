@@ -544,6 +544,11 @@ footer>* {
     #works .container {
         grid-template-rows: 60px 80px 1fr 1fr 1fr 270px;
         grid-template-columns: repeat(2, 1fr);
+        grid-gap: 80px;
+    }
+
+    #works .section-header {
+        grid-area: 2 / 1 / 3 / 2;
     }
 
     .item-1 {
