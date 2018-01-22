@@ -585,6 +585,7 @@ footer>* {
     }
 
     nav {
+        padding: 10px 0;
         background-color: rgb(142, 68, 173);
     }
 
@@ -606,9 +607,13 @@ footer>* {
         display: none;
     }
 
+    header::before {
+        border-right: solid 15vh transparent;
+    }
+
     header::after {
-        border-right: solid 30vh rgb(155, 89, 182);
-        border-left: solid 30vh transparent;
+        border-right: solid 25vh rgb(155, 89, 182);
+        border-left: solid 25vh transparent;
     }
 
     .hero {
@@ -632,8 +637,8 @@ footer>* {
     }
 
     #aboutMe::after {
-        border-left: solid 30vh transparent;
-        border-right: solid 30vh rgb(155, 89, 182);
+        border-left: solid 25vh transparent;
+        border-right: solid 25vh rgb(155, 89, 182);
     }
 
     #works .container {
@@ -678,6 +683,38 @@ footer>* {
 
     .item-6 {
         grid-area: 8 / 1 / 9 / 2;
+    }
+}
+
+@media (max-width: 700px) and (orientation: landscape) {
+    .skills svg {
+        display: none;
+    }
+
+    .section-header {
+        font-size: 34px;
+    }
+
+    #aboutMe {
+        height: 100%;
+    }
+
+    #aboutMe .container {
+        grid-template-rows: 50px repeat(4, 120px);
+        grid-template-columns: 90% 10%;
+    }
+
+    .quote {
+        width: 97%;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    #aboutMe p {
+        font-size: 15px;
+        line-height: 28px;
+        text-align: justify;
+        padding: 2px 5px 0;
     }
 }
 
