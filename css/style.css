@@ -401,6 +401,9 @@ header h2 {
     transform: scale(1.4);
     color: rgb(142, 68, 173);
 }
+ .soon {
+    pointer-events: none;
+ }
 
 .works-img {
     position: relative;
