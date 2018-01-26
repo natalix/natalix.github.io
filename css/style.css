@@ -793,6 +793,10 @@ footer>* {
     .skills svg {
         height: 28px;
     }
+
+    #aboutMe {
+        height: 110vh;
+    }
     
     #aboutMe .container {
         padding-left: 10px;
