@@ -646,6 +646,7 @@ footer>* {
 
     #aboutMe .container {
         padding-left: 20px;
+        grid-template-rows: 100px repeat(4, 1fr);
     }
 
     #aboutMe::after {
@@ -744,6 +745,9 @@ footer>* {
         width: 75%;
     }
 
+   .skills {
+        margin-right: 0;
+    }
     #aboutMe::after {
         border-left: solid 16vh transparent;
         border-right: solid 16vh rgb(155, 89, 182);
