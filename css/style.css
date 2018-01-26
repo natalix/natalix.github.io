@@ -798,6 +798,7 @@ footer>* {
         padding-left: 10px;
         grid-template-columns: 1fr;
         justify-items: center;
+        grid-template-rows: 70px repeat(4, 1fr);
     }
     
     .quote {
